@@ -1,0 +1,3 @@
+# path-cross
+
+This is version package path system node.js allow use on Node.js, browser, Vue 3...
