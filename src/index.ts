@@ -1,7 +1,7 @@
 import _process from "process";
 
-import posix from "./posix";
-import win32 from "./win32";
+import * as posix from "./posix";
+import * as win32 from "./win32";
 
 const isWin32 = _process.platform === "win32";
 export { win32, posix };
